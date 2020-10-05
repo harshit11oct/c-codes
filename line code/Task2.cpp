@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include <GL/glut.h>
 void init (void)
 {
@@ -13,7 +14,7 @@ glBegin (GL_LINES);
 glVertex2i (180, 15); // Specify line-segment geometry.
 glVertex2i (10, 145);
 glColor3f(0.0, 0.0, 1.0);
-glVertex2i (200, 35); // Specify line-segment geometry.
+glVertex2i (200, 35); 
 glColor3f(1.0, 0.0, 0.0);
 glVertex2i (30, 175);
 glEnd ( );

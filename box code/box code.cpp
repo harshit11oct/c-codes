@@ -16,7 +16,7 @@ glClear(GL_COLOR_BUFFER_BIT); /* clear the window */
 glMatrixMode(GL_MODELVIEW); /* The following coordinates are expressed */
 glLoadIdentity(); /* in terms of World coordinates */
 glBegin(GL_POLYGON) ; /* draw a filled polygon */
-glColor3f ( 0,255.0, 0); /* draw in light red */
+glColor3f ( 0,147.0, 0); /* draw in light red */
 glVertex2f( -C/2, -C/2 ); /* (x,y) */
 glVertex2f( C/2, -C/2 ); /* (x,y) */
 glVertex2f( C/2, C/2 ); /* (x,y) */

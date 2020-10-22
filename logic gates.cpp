@@ -70,5 +70,5 @@ printf("\n\nXOR gate");
             product=0;
         printf("\n %d XNOR %d = %d",a[i],b[i],product);
     }
-
+return 0;
 }

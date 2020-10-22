@@ -34,8 +34,8 @@ glutCreateWindow("Basic OpenGL Program"); /* window title */
 
 glutDisplayFunc(display); /* tell OpenGL main loop what */
 
-myinit(); /* set attributes */
-glutMainLoop(); /* pass control to the main loop */
+myinit(); /* set attribute */
+glutMainLoop(); /* pass control to the main loops */
 
 return 0;
 }

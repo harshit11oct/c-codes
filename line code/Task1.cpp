@@ -10,11 +10,11 @@ void lineSegment (void)
 glClear (GL_COLOR_BUFFER_BIT); // Clear display window.
 glColor3f (0.0, 0.4, 0.2); // Set line segment color to green.
 glBegin (GL_LINES);
-glVertex2i (180, 15); // Specify line-segment geometry.
+glVertex2i (180, 15); // Specify line-segments geometry.
 glVertex2i (10, 145);
 glEnd ( );
 glBegin (GL_LINES);
-glVertex2i (200, 35); // Specify line-segment geometry.
+glVertex2i (200, 35); // Specify line-segments geometry.
 glVertex2i (30, 175);
 glEnd ( );
 glFlush ( ); // Process all OpenGL routines as quickly aspossible.
@@ -27,7 +27,7 @@ glutInitWindowPosition (50, 100); // Set top-left display-windowposition.
 glutInitWindowSize (400, 300); // Set display-window width andheight.
 glutCreateWindow ("An Example OpenGL Program&quot"); // Create displaywindow.
 init ( ); // Execute initialization procedure.
-glutDisplayFunc (lineSegment); // Send graphics to displaywindow.
+glutDisplayFunc (lineSegment); // Send graphic to displaywindow.
 glutMainLoop ( ); // Display everything and wait.
 return 0;
 }

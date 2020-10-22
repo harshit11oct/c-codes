@@ -8,13 +8,13 @@ gluOrtho2D (0.0, 200.0, 0.0, 150.0);
 void lineSegment (void)
 {
 glClear (GL_COLOR_BUFFER_BIT); // Clear display window.
-glColor3f (0.0, 0.4, 0.2); // Set line segment color to green.
+glColor3f (0.0, 0.4, 0.2); // Set line segments color to green.
 glBegin (GL_LINES);
-glVertex2i (180, 15); // Specify line-segment geometry.
+glVertex2i (180, 15); // Specify line-segments geometry.
 glVertex2i (10, 145);
 glEnd ( );
 glBegin (GL_LINES);
-glVertex2i (200, 35); // Specify line-segment geometry.
+glVertex2i (200, 35); // Specify line-segments geometry.
 glVertex2i (30, 175);
 glEnd ( );
 glFlush ( ); // Process all OpenGL routines as quickly aspossible.
